@@ -1,0 +1,62 @@
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 5rem 5rem;
+  width: 100%;
+  margin-bottom: .8rem;
+  background-color: aliceblue;
+  border-radius: .5rem;
+  cursor: none;
+}
+
+.label {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 1.2rem 1.5rem;
+  cursor: pointer;
+}
+
+.checkbox {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.title {
+  font: 1.6rem/1em 'Roboto', sans-serif;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  transition: all 0.3s;
+
+  &:hover {
+    transform: translateY(-.5rem);
+    opacity: 0.5;
+  }
+
+  &:active {
+    transform: translateY(0rem);
+  }
+
+  svg {
+    font-size: 2rem;
+  }
+}
+
+.input {
+  font: 1.6rem/1em 'Roboto', sans-serif;
+  background: none;
+  border: none;
+  border-radius: .5rem;
+  padding: .4rem 1rem;
+  box-shadow: 0 4px 0 -3px #7FB5FF;
+}
